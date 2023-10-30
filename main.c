@@ -37,6 +37,10 @@ int main(void)
 
 	printf("-----+++++=====%%S=====+++++-----\n\n");
 
+	printf("| = %d <- OG\n", printf("%%s: %s", (char *)NULL));
+        printf("| = %d <- YOUR\n", ft_printf("%%s: %s", (char *)NULL));
+        printf("\n");	
+
 	printf("| = %d <- OG\n", printf("%%s: %s", ""));
         printf("| = %d <- YOUR\n", ft_printf("%%s: %s", ""));
         printf("\n");
